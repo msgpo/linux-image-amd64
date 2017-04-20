@@ -1,0 +1,12 @@
+Section: kernel
+Priority: optional
+Standards-Version: 3.9.2
+
+Package: linux-image-amd64
+Version: 4.9+4
+Maintainer: David McKinney <mckinney@subgraph.com>
+Depends: linux-image-4.9.20-grsec-amd64
+Architecture: amd64
+Description: Linux grsec for Subgraph OS on 64-bit PCs (meta-package) 
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
